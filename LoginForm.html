@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="whole">
+    <h1 id="clock"></h1>
+    <div class="weather-right">
+    <h1 id="weather"></h1>
+    <p id="condition"></p>
+    <h1 id="location"></h1>
+    
+        <input type="text" class="inputValue" placeholder="Search By City" />
+        <input type="submit" value="Search" class="button">
+    
+    <h1 class="name"></h1>
+    <p class="desc"></p>
+    <h1 class="temp"></h1>
+    </div>
+    <h1 id="greeting" class="hidden"></h1>
+    <p id="message" class="hidden">What is your main focus for Today?</p>
+    <form id="loginForm" class="hidden">
+        <h3>What's your Name?</h3>
+        <input type="text" required maxlength="10" />
+        <input type="submit" value="LogIn" />
+    </form>
+    <form id="messageForm" class="hidden"> 
+        <input type="text" placeholder="Type Here..."  value=""/>
+    </form>
+    <ul id="list"></ul>
+    <div id='quote'>
+        <span></span>
+        <span></span>
+    </div>
+    <form id='todoForm'>
+        <input type="checkbox"/>
+        <input type='text' placeholder="Input Todo..." required/>
+    </form>
+    <ul id='todoList'> </ul>
+    <script src="script.js"></script>
+    <script src="clock.js"></script>
+    <script src="quote.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+    <script src="searchWeather.js"></script>
+    </div>
+</body>
+
+</html>
